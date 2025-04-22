@@ -97,7 +97,7 @@ yc load-balancer network-load-balancer get network-load-balancer-1
 ![результат](./images/1-4.png)  
 
 удалена. остались только 2 ВМ из группы
-![результат](./images/1-15.png)  
+![результат](./images/1-5.png)  
 
 картинка доступна  ( две оставшихся вм продолжают отдавать картинку )
 
