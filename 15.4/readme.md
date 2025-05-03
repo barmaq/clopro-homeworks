@@ -83,9 +83,9 @@ deletion_protection
 - создаем кластер k8s  
 
 создал манифест кластера k8s   
-[манифест mysql.tf](./files/k8s.tf)  
-и переменные для него 
-[var для mysql.tf](./files/variables-k8s.tf)  
+[манифест k8s.tf](./files/k8s.tf)  
+и переменные для него   
+[var для k8s.tf](./files/variables-k8s.tf)  
 
 
 в рмках манифестов :  
