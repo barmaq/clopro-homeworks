@@ -29,7 +29,7 @@
 
 создал манифест кластера mysql  
 [манифест mysql.tf](./files/mysql.tf)  
-и переменные для него 
+и переменные для него  
 [var для mysql.tf](./files/variables-mysql.tf)  
 
 в рамках манифеста задал :  
