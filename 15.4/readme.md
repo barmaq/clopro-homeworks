@@ -92,13 +92,13 @@ deletion_protection
 переписал переменные подсетей на map (object) чтобы не путаться в куче переменных. можно создавать подсети через for each или count , но тут решил задавтаь напрямую, для полного контроля  
 [манифест main.tf](./files/main.tf)  
 
-создал отдельный сервис-аккаунт с необходимыми правами используя resource "yandex_iam_service_account"  
+создал отдельный сервис-аккаунт с необходимыми правами используя resource `"yandex_iam_service_account"`   
 
-создал региональный мастер Kubernetes с размещением нод в трёх разных подсетях используя resource "yandex_kubernetes_cluster"  
+создал региональный мастер Kubernetes с размещением нод в трёх разных подсетях используя resource `"yandex_kubernetes_cluster"`  
 
-создал kms  ключ используя  resource "yandex_kms_symmetric_key"  
+создал kms  ключ используя  resource `"yandex_kms_symmetric_key"`    
 
-Создать группу узлов, состояющую из трёх машин с автомасштабированием до шести используя yandex_kubernetes_node_group  
+создал группу узлов, состояющую из трёх машин с автомасштабированием до шести используя `"yandex_kubernetes_node_group"`  
 
 
 -------
